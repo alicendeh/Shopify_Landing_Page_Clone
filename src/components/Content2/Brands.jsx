@@ -11,26 +11,29 @@ import image8 from "../../assets/8.png";
 function Brands() {
   return (
     <div
-      className="row container-fluid mt-5 "
+      className="row container-fluid mt-5 pb-5 "
       style={{
         justifyContent: "center",
       }}
     >
       <div
         style={{
-          display: "flex",
-          borderTop: "1px solid grey",
-          borderBottom: "1px solid grey",
+          // display: "flex",
+          borderTop: "1px solid #d2d5d9",
+          borderBottom: "1px solid #d2d5d9",
+          paddingTop: 30,
+          paddingBottom: 30,
+          // width: "70%",
         }}
       >
-        <img src={image1} className="pr-5" />
-        <img src={image2} className="pr-5" />
-        <img src={image3} className="pr-5" className="pr-5" />
-        <img src={image4} className="pr-5" className="pr-5" />
-        <img src={image5} className="pr-5" className="pr-5" />
-        <img src={image6} className="pr-5" className="pr-5" />
-        <img src={image7} className="pr-5" className="pr-5" />
-        <img src={image8} className="pr-5" className="pr-5" />
+        <img src={image1} className="pr-5 pt-5 " />
+        <img src={image2} className="pr-5 pt-5" />
+        <img src={image3} className="pr-5 pt-5" />
+        <img src={image4} className="pr-5 pt-5" />
+        <img src={image5} className="pr-5 pt-5" />
+        <img src={image6} className="pr-3 pt-5" />
+        <img src={image7} className="pr-3 pt-5" />
+        <img src={image8} />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ function Main() {
     <div
       style={{
         backgroundColor: "#358160",
-        height: "100%",
+        width: "100%",
       }}
     >
       <Header />

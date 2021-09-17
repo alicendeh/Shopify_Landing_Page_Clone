@@ -41,6 +41,7 @@ function MiddleContent() {
         }}
       >
         <input
+          className=""
           placeholder="Enter your email address"
           style={{
             width: "24vw",
@@ -54,7 +55,7 @@ function MiddleContent() {
             backgroundColor: "#212326",
             color: "white",
           }}
-          className="btn  ml-3 p-4"
+          className="btn  ml-3 p-4 "
         >
           Start free trial
         </button>

@@ -23,14 +23,16 @@ function Card() {
   ];
   return (
     <div
-      className="mt-5 "
+      className="mt-5 pt-5 "
       style={{
         display: "flex",
         justifyContent: "center",
+        marginBottom: 95,
+        marginTop: 22,
       }}
     >
       <div
-        className="pt-5 mt-5 "
+        className="pt-5 mt-5 row"
         style={{
           width: "70%",
           display: "flex",
@@ -38,15 +40,16 @@ function Card() {
       >
         {data.map((aData) => (
           <div
-            className="mr-5"
+            className="mr-5 mt-5  col-sm-12 col-md-3 col-xs-12"
             style={{
-              width: "40%",
+              width: "100%",
+              paddingTop: "7%",
             }}
           >
             {/* <h1>logo</h1> */}
             <img src={aData.img} alt="" />
             <h4 style={{}}>{aData.title}</h4>
-            <h4 style={{ color: "#a9a3ab", lineHeight: 1.5 }}>{aData.body} </h4>
+            <p style={{ color: "#6b7177", lineHeight: 1.5 }}>{aData.body} </p>
           </div>
         ))}
       </div>
